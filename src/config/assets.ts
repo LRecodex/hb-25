@@ -1,3 +1,3 @@
 export const ASSETS = {
-  birthdayCake: '/models/birthday_cake_with_candles_25.glb',
+  birthdayCake: new URL('models/birthday_cake_with_candles_25.glb', document.baseURI).toString(),
 } as const
